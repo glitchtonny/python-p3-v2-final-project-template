@@ -19,4 +19,12 @@ The application uses SQLite for data storage.
 
 # cli.py
 
-This is the main entry point for the CLI application
+This is the main entry point for the CLI application.it defines the commands available to the user and interact with the helpers function.
+
+- @click.group() - Defines the main CLI group.
+- menu() - Displays the main menu and handles user input for different operations.
+- add() - Prompts the user for details of a new journal entry and adds it to the database.
+- list_entries() - Lists all journal entries from the database.
+- find_entries() - Prompts the user for a tag and displays entries matching that tag.
+- update_entries() - prompts the user for an entry ID and new details, then updates the entry in the database.
+- delete_entries() - prompts the user for an entry ID and deletes the corresponding entry
