@@ -161,7 +161,7 @@ def update_entries():
     entry_id = click.prompt("Enter ID of the entry to update", type=int)
     title = click.prompt("New Title", type=str)
     content = click.prompt("New Content", type=str)
-    tags_str = click.prompt("New Tags (comma-separated)", type=str)
+    tags_str = click.prompt("New Tags (use comma)", type=str)
     date_str = click.prompt("New Date (YYYY-MM-DD)", type=str)
 
     tags = parse_tags(tags_str)
