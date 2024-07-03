@@ -9,12 +9,6 @@
 #     exit()
 
 
-
-
-
-
-
-
 import sqlite3
 from models.journal_entry import JournalEntry
 
