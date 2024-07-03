@@ -121,7 +121,7 @@ def add():
     """Add a new journal entry"""
     title = click.prompt("Title", type=str)
     content = click.prompt("Content", type=str)
-    tags_str = click.prompt("Tags (comma-separated)", type=str)
+    tags_str = click.prompt("Tags (use comma)", type=str)
     date_str = click.prompt("Date (YYYY-MM-DD)", type=str)
 
     tags = parse_tags(tags_str)
