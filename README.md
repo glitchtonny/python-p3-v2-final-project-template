@@ -54,28 +54,28 @@ This file defines the JournalEntry class, which represents a journal entry.
 
 3. Run the cli.py application
 
-## Usage
+# Usage
 
-# Add a New Journal Entry:
+## Add a New Journal Entry:
 
 1. Select option 1 from the menu.
 2. Enter the title, content, tags (comma-separated), and date (YYYY-MM-DD).
 
-# List All Journal Entries:
+## List All Journal Entries:
 
 1. Select option 2 from the menu.
 
-# Find Journal Entries by Tag:
+## Find Journal Entries by Tag:
 
 1. Select option 3 from the menu.
 2. Enter the tag to search.
 
-# Delete a Journal Entry:
+## Delete a Journal Entry:
 
 1. Select option 4 from the menu.
 2. Enter the ID of the entry to delete.
 
-# Update a Journal Entry:
+## Update a Journal Entry:
 
 1. Select option 5 from the menu.
 2. Enter the ID of the entry to update.
