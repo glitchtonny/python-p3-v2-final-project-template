@@ -8,7 +8,7 @@ class JournalEntry:
         self.date = date
 
     def __repr__(self):
-        return f"<JournalEntry(id={self.id}, title={self.title}, date={self.date}, tags={self.tags})>"
+        return f"<JournalEntry(id:{self.id}, title:{self.title}, date:{self.date}, tags:{self.tags})>"
 
 
 

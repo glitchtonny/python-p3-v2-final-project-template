@@ -28,3 +28,14 @@ This is the main entry point for the CLI application.it defines the commands ava
 - find_entries() - Prompts the user for a tag and displays entries matching that tag.
 - update_entries() - prompts the user for an entry ID and new details, then updates the entry in the database.
 - delete_entries() - prompts the user for an entry ID and deletes the corresponding entry
+
+# helpers.py
+
+This file contains helper functions for database operations. It interacts with the SQLite database to perform CRUD operations.
+
+- **`create_table()`**: Creates the necessary tables (`journal_entries` and `tags`) in the database.
+- **`add_entry(entry)`**: Adds a new journal entry and its associated tags to the database.
+- **`get_all_entries()`**: Retrieves all journal entries along with their tags.
+- **`find_entries_by_tag(tag)`**: Finds journal entries that match a specific tag.
+- **`delete_entry(entry_id)`**: Deletes a journal entry by its ID.
+- **`update_entry(entry_id, title, content, tags, date)`**: Updates an existing journal entry and its tags.
