@@ -90,7 +90,7 @@ def menu():
         choice = click.prompt("Select an option", type=int)
 
         if choice == 0:
-            click.echo("Exiting program. Goodbye!")
+            click.echo("CIAO ADIOS MUCHACHOS.(You've exited your journal)!")
             break
         elif choice == 1:
             add()
