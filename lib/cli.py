@@ -152,13 +152,13 @@ def find_entries():
 
 def delete_entries():
     """Prompt for entry ID to delete"""
-    entry_id = click.prompt("Enter ID of the entry to delete", type=int)
+    entry_id = click.prompt("Enter id of the entry to delete", type=int)
     delete_entry(entry_id)
     click.echo(f"Journal entry {entry_id} deleted successfully.")
 
 def update_entries():
     """Prompt for entry ID and new details to update"""
-    entry_id = click.prompt("Enter ID of the entry to update", type=int)
+    entry_id = click.prompt("Enter id of the entry to update", type=int)
     title = click.prompt("New Title", type=str)
     content = click.prompt("New Content", type=str)
     tags_str = click.prompt("New Tags (use comma)", type=str)
